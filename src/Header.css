@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  padding: 0rem 1rem;
+  align-items: center;
+  color: white;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-around;
+}
+.header__left {
+  display: flex;
+}
+.header__logo {
+  height: 3rem;
+  margin-right: 1rem;
+}
+.header__quote {
+  display: flex;
+}
+.header__quote--text {
+  font-weight: bold;
+}
+.header__quote--author {
+  margin-left: 2rem;
+  font-style: italic;
+  color: #f2f2f2;
+}
